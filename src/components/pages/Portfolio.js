@@ -4,12 +4,12 @@ import Project from "../Project";
 import Ultimutt from "../../assets/images/homePage.png";
 import Planner from "../../assets/images/dayplanner.png";
 import Password from "../../assets/images/password.png";
-
-
+import Directory from "../../assets/images/employee-app.png";
+import Weather from "../../assets/images/weather.png";
 const Portfolio = () => {
   return (
     <section>
-      <div className="container my-container ">
+      <div className="container my-container page-container">
 
         <div className="row">
           <div className="col my-col">
@@ -30,6 +30,21 @@ const Portfolio = () => {
               imgUrl= {Ultimutt}
               deployedUrl="https://marenhamby.github.io/UltiMutt_dog_finder/"
               githubUrl="https://github.com/marenhamby/UltiMutt_dog_finder"
+            />
+        </div>
+        <div className="row">
+            <Project
+              title="Weather Dashboard"
+              imgUrl={Weather}
+              deployedUrl="https://lorena-ramirez.github.io/Weather-Dashboard/"
+              githubUrl="https://github.com/Lorena-Ramirez/Weather-Dashboard"
+            />
+      
+            <Project
+              title="Employee Directory"
+              imgUrl={Directory}
+              deployedUrl="https://lorena-ramirez.github.io/employee-app/"
+              githubUrl="https://github.com/Lorena-Ramirez/employee-app"
             />
         </div>
 

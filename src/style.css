@@ -1,0 +1,96 @@
+body{
+    background-image:url("https://marbleunlimitedinc.com/img/blog/background.jpg");
+}
+
+.navbar-light .navbar-brand {
+    background-color: white; 
+    font-family: 'BioRhyme', serif;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+.navbar-light .navbar-nav .nav-link, p,
+label, button {
+    font-family: 'Space Mono', monospace; 
+    color: black;
+}
+
+section{
+    margin-top: 30px;
+    margin-right:10%;
+    margin-left:10%;
+    
+}
+
+.my-col, .aboutMe-block{
+    background-color: #f9dde1;
+}
+
+
+h1{
+    font-family: 'BioRhyme', serif;
+}
+
+h1:after{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+.image-thumbnail{
+    width : 300px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.bio-text {
+    text-indent: 2.0em;
+}
+
+.projectsCard{
+    height: 95%;
+    border : 1px solid black !important;
+}
+.ultimutt-picture {
+    height: 370px;
+}
+.resume-link {
+  color: black;
+  text-decoration: none;
+}
+
+.flex {
+    display:flex;
+    float:right;
+}
+.centered {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+  }
+
+
+.modal-btn{
+    background-color: white;
+    margin: 10px;
+   display: flex;
+   border-color: black;
+}
+
+
+.modal-close-btn{
+border-color: black;
+}
+
+.portfolio-container{
+    margin: 10px;
+}
+
+.portfolio-text{
+    font-size:20px ;
+}
+
+
+
+

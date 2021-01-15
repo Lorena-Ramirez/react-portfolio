@@ -10,8 +10,8 @@ export default function Project({title, imgUrl, deployedUrl, githubUrl}) {
           <h4 style={{textAlign: "center"}}>{title}</h4>
           <img src={imgUrl} className="card-img-top" alt="Project's Homepage" />
           <div className="card-body">
-            <p className="portfolio-text"> Deplyed Website Link: <Link to={deployedUrl} target="_blank">{title}</Link> <br></br>
-                Github Repository Link: <Link to={githubUrl} target="_blank"> Repository</Link>
+            <p className="portfolio-text"> Deplyed Website Link: <a href={deployedUrl} target="_blank">{title}</a> <br></br>
+                Github Repository Link: <a href={githubUrl} target="_blank"> Repository</a>
             </p>
           </div>
         </div>

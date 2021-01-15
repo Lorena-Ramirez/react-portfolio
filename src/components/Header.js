@@ -1,13 +1,12 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../style.css";
 const Header = () => {
 
-  const location = useLocation();
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#f9dde1'}}>
-      <Link className={location === "/" ? "navbar-brand active" : "navbar-brand"} to="/">Lorena Ramirez</Link>
+      <Link className="navbar-brand" to="/">Lorena Ramirez</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -19,6 +18,9 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/portfolio">Portfolio</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

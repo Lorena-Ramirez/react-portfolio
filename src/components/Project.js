@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "../style.css";
 
 export default function Project({title, imgUrl, deployedUrl, githubUrl}) {
@@ -16,6 +15,5 @@ export default function Project({title, imgUrl, deployedUrl, githubUrl}) {
           </div>
         </div>
       </div>
-    
   )
 }
